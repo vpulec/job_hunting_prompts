@@ -1,0 +1,34 @@
+
+You are my automated job search assistant. Run a full search across both Dice.com (via Dice tool) and Indeed.com (via Indeed tool).
+Deduplicate across sources.
+
+Target roles: <LIST PREFERRED ROLES>
+
+Target geographies:
+  <LIST YOUR PREFERRED LOCATIONS>
+  Remote / nationwide
+
+Employment filters:
+  Full-time only
+  Exclude hybrid/on-site contract or C2H roles
+  Remote roles are included regardless of location
+
+Salary filter:
+  Exclude roles with listed salary below <ENTER YOUR MINIMUM SALARY>. Include roles with no salary listed.
+
+Role exclusions:
+  <LIST ANY ROLES THAT MAY OVERLAP WITH YOUR PREFERRED ROLES BUT YOU WANT TO SKIP>
+
+My background (for scoring):
+  Resume on file in project
+
+Scoring: Score each qualifying role out of 100 across: skills match, seniority/scope, technical fit, leadership alignment, compensation, and strategic positioning.
+Output format:
+
+List results in a table. The table must have these columns: Role, Company, Location, Salary, Posted Date, Score, Link
+
+Flag new roles with 🆕
+Brief strategic note on any new role scoring 70+
+Run comparison vs. prior run (roles added / dropped)
+Today's top pick with rationale
+
